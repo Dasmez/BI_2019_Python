@@ -5,4 +5,4 @@ def flat_list(array):
             c += flat_list(array[i])
         else:
             c.append(array[i])
-    return (c)
+    return c
