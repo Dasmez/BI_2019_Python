@@ -1,9 +1,8 @@
 def flat_list(array):
     c = []
-    for i in range(len(array)):
-        if type(array[i]) == list:
+    for element in array:
+        if type(element) is list:
             c = c + flat_list(array[i])
         else:
             c.append(array[i])
-    array = c
-    return (array)
+    return (c)
