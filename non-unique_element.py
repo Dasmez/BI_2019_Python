@@ -3,4 +3,4 @@ def checkio(a: list) -> list:
     for element in a:
         if a.count(element) != 1:
             b.append(a[i])
-    return (b)
+    return b
