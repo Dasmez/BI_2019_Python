@@ -7,4 +7,3 @@ def checkio(first, second):
     result = set.intersection(first, second)
     a = sorted(result)
     return ",".join(a)
-
