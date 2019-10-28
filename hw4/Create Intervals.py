@@ -20,3 +20,4 @@ def create_intervals(data):
         return result
     else:
         return None
+
