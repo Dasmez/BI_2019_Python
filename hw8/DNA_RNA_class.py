@@ -46,7 +46,7 @@ class DNA:
                 tr_seq = tr_seq + i
             else:
                 print('It can not be transcribed')
-                rev_seq = ''
+                tr_seq = ''
                 break
         return RNA(tr_seq)
 
